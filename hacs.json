@@ -1,6 +1,3 @@
 {
-    "name": "andy-bignumber-card",
-    "domains": "andy-bignumber-card",
-    "iot_class": "cloud push",
-    "homeassistant": "0.118.0"
+    "name": "andy-bignumber-card"
 }
