@@ -1,4 +1,4 @@
-class BigNumberCard extends HTMLElement {
+class AndyBigNumberCard extends HTMLElement {
   _DEFAULT_STYLE(){return 'var(--label-badge-blue)';}
   _DEFAULT_COLOR(){return 'var(--primary-text-color)';}
   
@@ -151,7 +151,7 @@ class BigNumberCard extends HTMLElement {
   }
 }
 
-customElements.define('bignumber-card', BigNumberCard);
+customElements.define('andy-bignumber-card', AndyBigNumberCard);
 
 // Configure the preview in the Lovelace card picker
 window.customCards = window.customCards || [];
