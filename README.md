@@ -24,7 +24,7 @@ A simple card to display big numbers for sensors. It also supports severity leve
 | noneValueClass | string | optional | CSS class to add to value if value == None
 | round | int | optional | Number of decimals to round to. (If not present, do not round.)
 | title_color | string | optional | color of the title
-| title_size | string | optional | font size of the title
+| title_size | float | optional | font size of the title
 
 ## Examples
 
