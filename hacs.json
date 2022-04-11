@@ -1,4 +1,6 @@
 {
     "name": "andy-bignumber-card",
-    "domains": "andy-bignumber-card"
+    "domains": "andy-bignumber-card",
+    "filename": "andy-bignumber-card.js"
+
 }
