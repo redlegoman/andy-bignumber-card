@@ -47,7 +47,7 @@ class AndyBigNumberCard extends HTMLElement {
       }
       #value small{opacity: ${cardConfig.opacity}}
       #title {
-        font-size: calc(var(--base-unit) * 0.5);
+        font-size: ${cardConfig.title_size};
         line-height: calc(var(--base-unit) * 0.5);
         color: ${cardConfig.title_color};
       }
