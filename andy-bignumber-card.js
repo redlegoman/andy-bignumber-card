@@ -2,6 +2,12 @@ class AndyBigNumberCard extends HTMLElement {
   _DEFAULT_STYLE(){return 'var(--label-badge-blue)';}
   _DEFAULT_COLOR(){return 'var(--primary-text-color)';}
   
+
+  _toggle(state) {
+    this.hass.callService("homeassistant", "toggle", {
+      entity_id: state.entity_id
+    });
+  }
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
@@ -149,7 +155,9 @@ class AndyBigNumberCard extends HTMLElement {
   getCardSize() {
     return 1;
   }
+
 }
+console.info(`%c  ANDY-BIGNUMBER-CARD \n%c  `,"color: orange; font-weight: bold; background: black","color: white; font-weight: bold; background: dimgray")
 
 customElements.define('andy-bignumber-card', AndyBigNumberCard);
 
