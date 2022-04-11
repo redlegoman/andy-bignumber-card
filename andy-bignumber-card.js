@@ -49,7 +49,7 @@ class AndyBigNumberCard extends HTMLElement {
       #title {
         font-size: calc(var(--base-unit) * 0.5);
         line-height: calc(var(--base-unit) * 0.5);
-        color: var(--bignumber-color);
+        color: ${cardConfig.title_color};
       }
     `;
     card.appendChild(content);
